@@ -75,7 +75,7 @@ Devin Login して member ページにアクセス : https://app.devin.ai/org/dm
 
 Chrome など develoer tools の Network タブから fetch/XHR の post-auth のレスポンスから確認可能
 
-### memer の ID 確認方法
+### member の ID 確認方法
 
 Devin Login して member ページにアクセス : https://app.devin.ai/org/dmm-com/settings/members
 
