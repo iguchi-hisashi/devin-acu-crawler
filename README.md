@@ -20,6 +20,13 @@ devin API v3 -> https://docs.devin.ai/api-reference/v3/overview
 - uv 0.1.0
 
 
+## Service user token
+
+https://app.devin.ai/org/dmm-com/settings/org-service-users へアクセスして service user を作成して token の発行を実施してください
+
+role としては Admin で設定
+
+
 ## 環境変数
 
 .env.sample を元に .env を作成
@@ -61,7 +68,7 @@ devin API v3 -> https://docs.devin.ai/api-reference/v3/overview
 | is_archived | is session achived |
 
 
-## その他補足情報
+## ID 等に関して
 ### Organaization の ID 確認方法
 
 Devin Login して member ページにアクセス : https://app.devin.ai/org/dmm-com
@@ -73,3 +80,9 @@ Chrome など develoer tools の Network タブから fetch/XHR の post-auth �
 Devin Login して member ページにアクセス : https://app.devin.ai/org/dmm-com/settings/members
 
 Chrome など develoer tools の Network タブから fetch/XHR の members?no_cache=true のレスポンスから確認可能
+
+## 補足
+
+API v3 に関しては Enterprise と Organaization とで利用可能な API が異なっており Organaization では ACUs を直接取得するような API は利用できない。
+
+今後 update で利用可能になるかもしれないが今はセッション情報から ACU を集計する方法しかなさそう
