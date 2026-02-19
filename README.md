@@ -22,7 +22,7 @@ devin API v3 -> https://docs.devin.ai/api-reference/v3/overview
 
 ## 環境変数
 
-.env に記載
+.env.sample を元に .env を作成
 
 | Key | Description |
 | ------------- | ------------- |
