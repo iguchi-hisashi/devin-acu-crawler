@@ -11,3 +11,6 @@ wheels/
 
 # output file
 output_all_sessions.csv
+
+# env file
+.env
